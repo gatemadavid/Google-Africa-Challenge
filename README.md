@@ -1,16 +1,13 @@
 # Pixel Art Maker Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+To get started, open `index.html` on a browser and select the required grid height and grid width.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Click submit to draw the grid on the canvas.
 
-## Contributing
+Next, click on the color chooser to select the background color for each cell. You can keep changing the colors to create the art-work of your choice.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Click on each cell to set the background color.
+
+Ps. You can select a new color and click on the cells again to remove the existing color.

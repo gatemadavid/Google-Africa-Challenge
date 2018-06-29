@@ -4,23 +4,25 @@
 let drawGrid = $('input[type="submit"]');
 function makeGrid() {
   // Select size input
-  let canvas, height, width, row, cell, color;
+  let canvas, height, width, row, cell, color, td, tr;
 
   canvas = $('#pixelCanvas');
   height = $('#inputHeight').val();
   width = $('#inputWidth').val();
+  td='<td></td>';
+  tr= '<tr></tr>';
 
 
 
   canvas.children().remove()
 
   for (i = 0; i<height; i++) {
-    canvas.append('<tr></tr>');
+    canvas.append(tr);
   }
   row = $('tr');
 
   for (j = 0; j<width; j++) {
-    row.append('<td></td>');
+    row.append(td);
   }
 //find cell
   cell = canvas.find('td');
@@ -33,8 +35,6 @@ function makeGrid() {
 }
 
 // call make grid on submit
-
-
 drawGrid.click(function (e) {
   e.preventDefault();
   makeGrid();

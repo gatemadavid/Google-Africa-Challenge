@@ -12,4 +12,4 @@ Click on each cell to set the background color.
 
 Ps. You can select a new color and click on the cells again to remove the existing color.
 
-Live Project: gatemadavid.github.io
+Live Project: https://gatemadavid.github.io

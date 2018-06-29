@@ -11,3 +11,5 @@ Next, click on the color chooser to select the background color for each cell. Y
 Click on each cell to set the background color.
 
 Ps. You can select a new color and click on the cells again to remove the existing color.
+
+Live Project: gatemadavid.github.io
